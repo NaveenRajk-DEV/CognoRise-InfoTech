@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="bg-show">
+        <div class="Converter-Container">
+            <header>
+                <button onclick="Clear_btn()">Clear All</button>
+                <input type="number" placeholder="Enter Value" id="Value-Input" min="1">
+            </header>
+            <section>
+                <h4>From</h4>
+                <h4>To</h4>
+                <select name="From-Unit" id="From-DropDown">
+                    <option value="">SELECT</option>
+                </select>
+                <i class="fa-solid fa-right-left" id="Swap-btn"></i>
+                <select name="To-Unit" id="To-DropDown">
+                    <option value="">SELECT</option>
+                </select>
+            </section>
+            <footer>
+                <h3>Result</h3>
+                <span></span>
+                <button class="Sumbit-btn">Exchange Rate</button>
+            </footer>
+            <!-- <button onclick="btn()"></button> -->
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
