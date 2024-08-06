@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <div class="bg-show">
+        <div class="Error-Container hide">
+            <h2><span>Inadequate Data !!!</span></h2>
+            <h3>None</h3>
+            <button class="ok-btn">ok</button>
+        </div>
+        <div class="BMI-Container">
+            <header>
+                <h2>Calculate Your <span>BMI</span></h2>
+                <div class="Gender-Container">
+                    <div class="Male-Container">Male</div>
+                    <div class="Female-Container">Female</div>
+                </div>
+            </header>
+            <section>
+                <div class="Form-Inputs">
+                    <input type="number" name="Weight_input" id="Weight-Input" placeholder="Enter Weight - (Kg)">
+                    <input type="number" name="Height_input" id="Height-Input" placeholder="Enter Height - (Cm)">
+                    <input type="number" name="Age_input" id="Age-Input" placeholder="Enter Your Age">
+                    <button class="Calculate-btn">Calculate BMI</button>
+                </div>
+            </section>
+        </div>
+        <div class="Output-Container hide">
+            <button class="Home-btn">Home</button>
+            <div class="Result-Container">
+                <h2><span>BMI</span></h2>
+                <h1></h1>
+            </div>
+            <div class="Description-Container">
+                <h4>80 KG</h4>
+                <h4>186 M</h4>
+                <h4>21 Years Old</h4>
+                <h4>Male</h4>
+                <h1>Good Weight</h1>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
